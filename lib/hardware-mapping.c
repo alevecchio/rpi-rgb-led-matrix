@@ -217,7 +217,7 @@ struct HardwareMapping matrix_hardware_mappings[] = {
      * and to keep the SPI pins free.
      */
   {
-    .name          = "regular",
+    .name          = "spifree",
 
     .output_enable = GPIO_BIT(18),
     .clock         = GPIO_BIT(17),
